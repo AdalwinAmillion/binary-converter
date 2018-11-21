@@ -38,6 +38,7 @@ public class BinaryConverter {
 				}
 				
 		}
+		input.close();
 		return stringBuilder.toString();
 	}
 	public static int toDecimal(String binary) 
